@@ -25,9 +25,11 @@
           {{
             appeal.applicantLastName +
             " " +
-            appeal?.applicantFirstName +
+            appeal?.applicantFirstName.slice(0, 1) +
+            "." +
             " " +
-            appeal?.applicantPatronymicName
+            appeal?.applicantPatronymicName.slice(0, 1) +
+            "."
           }}
         </td>
         <td>
