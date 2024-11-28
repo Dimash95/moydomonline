@@ -1,0 +1,19 @@
+{
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "sass": "^1.81.0",
+    "vee-validate": "^3.4.15",
+    "vite": "^4.5.5",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vue-template-compiler": "^2.7.16",
+    "vuex": "^3.6.2"
+  }
+}
